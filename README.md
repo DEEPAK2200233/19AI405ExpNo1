@@ -87,7 +87,9 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-<h3>OUTPUT</h3>
+
+
+## OUTPUT
 ![1](https://github.com/Ashwinkumar-03/19AI405ExpNo1/assets/118663725/d38cede4-e4b1-4bd8-8159-bbafbba0d11c)
 
 
