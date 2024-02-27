@@ -40,3 +40,59 @@
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
+## PROGRAM
+```
+NAME: DEEPAK RAJ S
+REG NO: 212222240023
+import random
+
+class VacuumEnvironment:
+    def init(self, size):
+        self.size = size
+        self.agent_location = random.randint(0, size-1)
+        self.dirt_locations = [random.randint(0, size-1) for _ in range(size)]
+        
+    def is_dirty(self, location):
+        return location in self.dirt_locations
+    
+    def clean(self, location):
+        if location in self.dirt_locations:
+            self.dirt_locations.remove(location)
+    
+    def move_agent(self, action):
+        if action == "left":
+            self.agent_location = max(0, self.agent_location - 1)
+        elif action == "right":
+            self.agent_location = min(self.size - 1, self.agent_location + 1)
+    
+    def percept(self):
+        return self.agent_location, self.is_dirty(self.agent_location)
+
+class SimpleReflexAgent:
+    def init(self):
+        pass
+    
+    def action(self, location, dirty):
+        if dirty:
+            return "suck"
+        elif location == 0:
+            return "right"
+        elif location == 1:
+            return "left"
+
+def main():
+    size = 5
+    environment = VacuumEnvironment(size)
+    agent = SimpleReflexAgent()
+
+    for _ in range(10):
+        location, dirty = environment.percept()
+        action = agent.action(location, dirty)
+        if action == "suck":
+            environment.clean(location)
+        environment.move_agent(action)
+        print("Location:", location, "| Dirty:", dirty, "| Action:", action)
+
+if __name__ == "__main__":
+    main()
+```
