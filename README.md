@@ -88,7 +88,7 @@ if __name__ == "__main__":
     main()
 ```
 <h3>OUTPUT</h3>
-![image](https://github.com/DEEPAK2200233/19AI405ExpNo1/assets/118707676/e78192f1-76f1-436e-b7cc-ad4abb2ca674)
+![photo_2024-02-27_14-18-41](https://github.com/DEEPAK2200233/19AI405ExpNo1/assets/118707676/9c922a1a-a4f7-46cf-8128-2c3be6438b3e)
 
 <h3>RESULT</h3>
 The Program is excuted successfully.
