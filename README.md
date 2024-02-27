@@ -88,7 +88,8 @@ if __name__ == "__main__":
     main()
 ```
 <h3>OUTPUT</h3>
-![photo_2024-02-27_14-18-41](https://github.com/DEEPAK2200233/19AI405ExpNo1/assets/118707676/9bd26950-8fa2-4540-987f-23221a06e0ab)
+![image](https://github.com/DEEPAK2200233/19AI405ExpNo1/assets/118707676/d8de879b-d46b-46ba-b833-5286a1ce07fe)
+
 
 
 <h3>RESULT</h3>
