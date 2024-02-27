@@ -8,7 +8,7 @@
 <p>To find the PEAS description for the given AI problem and develop an AI agent.</p>
 <br>
 <h3>Theory</h3>
-<h3>Medicine prescribing agent:</h3>
+<h3>VACUUM CLEANER:</h3>
 <p>Such this agent prescribes medicine for fever (greater than 98.5 degrees) which we consider here as unhealthy, by the user temperature input, and another environment is rooms in the hospital (two rooms). This agent has to consider two factors one is room location and an unhealthy patient in a random room, the agent has to move from one room to another to check and treat the unhealthy person. The performance of the agent is calculated by incrementing performance and each time after treating in one room again it has to check another room so that the movement causes the agent to reduce its performance. Hence, agents prescribe medicine to unhealthy.</p>
 <hr>
 <h3>PEAS DESCRIPTION:</h3>
@@ -21,11 +21,11 @@
     <td><strong>Sensors</strong></td>
   </tr>
     <tr>
-    <td><strong>Medicine prescribing agent</strong></td>
-    <td><strong>Treating unhealthy, agent movement</strong></td>
-     <td><strong>Rooms, Patient</strong></td>
-    <td><strong>Medicine, Treatment</strong></td>
-    <td><strong>Location, Temperature of patient</strong></td>
+    <td><strong>VACUUM CLEANER</strong></td>
+    <td><strong>ABSORB DIRT</strong></td>
+     <td><strong>Rooms</strong></td>
+    <td><strong>CLEANING AGENT</strong></td>
+    <td><strong>Location</strong></td>
   </tr>
 </table>
 <hr>
@@ -40,11 +40,9 @@
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
+
 <h3>PROGRAM</h3>
-
 NAME: DEEPAK RAJ S
-
-
 REG NO: 212222240023
 
 ```
@@ -89,3 +87,9 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+<h3>OUTPUT</h3>
+![image](https://github.com/DEEPAK2200233/19AI405ExpNo1/assets/118707676/e78192f1-76f1-436e-b7cc-ad4abb2ca674)
+
+<h3>RESULT</h3>
+The Program is excuted successfully.
+
